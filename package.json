@@ -10,6 +10,6 @@
     "typescript": "^3.2.2"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && chmod +x build/bin/gitdocs.js"
   }
 }
