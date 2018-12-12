@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig-gitdocs.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "build",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true 
+  },
+  "include": [
+    "bin/**/*.ts",
+    "commands/**/*.ts",
+    "lib/**/*.ts",
+    "test/**/*.ts",
+    "utils/**/*.ts"
+  ],
+  "exclude": [
+    "test/fixtures/**/*.*"
+  ]
+}
