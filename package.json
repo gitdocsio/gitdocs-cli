@@ -1,0 +1,14 @@
+{
+  "name": "@gitdocsio/cli",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gitdocsio/gitdocs-cli.git",
+  "author": "Qasim Soomro",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
