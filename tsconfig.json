@@ -7,8 +7,11 @@
     "esModuleInterop": true 
   },
   "include": [
-    "src/**/*.ts",
-    "test/**/*.ts"
+    "bin/**/*.ts",
+    "commands/**/*.ts",
+    "lib/**/*.ts",
+    "test/**/*.ts",
+    "utils/**/*.ts"
   ],
   "exclude": [
     "test/fixtures/**/*.*"
