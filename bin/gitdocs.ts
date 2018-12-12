@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import commands from '../commands';
+import commands from '../src/commands';
 
 /**
  * GitDocs commands
