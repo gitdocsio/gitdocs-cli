@@ -6,6 +6,7 @@
   "author": "Qasim Soomro",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^10.12.12",
     "typescript": "^3.2.2"
   },
   "scripts": {
